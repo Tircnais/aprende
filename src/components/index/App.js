@@ -1,9 +1,6 @@
 import React from "react";
-import logo from "./assets/img/logo.svg";
-import "./assets/css/App.css";
-
-import CompenenteSession from "./components/session/logeo";
-import Sidebar from "./components/Sidebar/Sidebar";
+import logo from "./logo.svg";
+import "../../style/App.css";
 
 function App() {
   return (
@@ -21,8 +18,6 @@ function App() {
         >
           Learn React
         </a>
-        <CompenenteSession></CompenenteSession>
-        <Sidebar></Sidebar>
       </header>
     </div>
   );
